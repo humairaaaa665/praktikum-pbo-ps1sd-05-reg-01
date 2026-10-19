@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package humaira.projectmodul04.guided;
 
 public class Manusia {
@@ -30,3 +31,37 @@ public class Manusia {
         return umur;
     }
 }
+=======
+package humaira.projectmodul04.guided;
+
+public class Manusia {
+
+//definisi atribut
+    private String nama;
+    private int umur;
+    
+    //4.2 constructor
+    public Manusia(){};
+    public Manusia(String nama){
+        this.nama = nama;
+    }
+    public Manusia(String nama, int umur){
+        this.nama = nama;
+        this.umur = umur;
+    }
+    
+    //method setter
+    public void setNama(String a) {
+        nama = a;
+    }
+    public String getNama() {
+        return nama;
+    }
+    public void setUmur(int a) {
+        umur = a;
+    }
+    public int getUmur() {
+        return umur;
+    }
+}
+>>>>>>> 38f099a74400d9897f4f17586fffb1addd26b384
